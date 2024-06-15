@@ -1,0 +1,30 @@
+{
+  "name": "webmobi",
+  "version": "1.0.0",
+  "description": "user enrollment and crud operations",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev": "nodemon server.mjs",
+    "start": "node server.mjs"
+  },
+  "author": "shiv kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.24.7",
+    "babel-jest": "^29.7.0",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "postgres": "^3.4.4",
+    "ts-jest": "^29.1.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "axios": "^1.7.2"
+  }
+}
